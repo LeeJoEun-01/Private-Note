@@ -7,7 +7,9 @@
 [5. localStorage 구현하기](#localStorage-구현하기)   
 [6. selectBox change 잡기](#selectBox-change-잡기)   
 [7. Data Attribute](#Data-Attribute)  
-[8. swal alert 창](#swal-alert-창)
+[8. swal alert 창](#swal-alert-창)  
+[9. 고차함수(filter사용)](#고차함수(filter사용))  
+[10. 참고](#참고)
 
 ## 개발 요구서
 - (디자인된 사이트 사진 첨부)
@@ -18,6 +20,9 @@
 ## 개발 정리 
 
 ### ZingChart 활용
+- zingchart token 사용
+	- 
+- tooltip 넣기
 ### Ajax 사용하여 데이터 받기
 ### dimension과 metrics, size, sort 설정 (setSendData)
 ### localStorage 구현하기
@@ -41,3 +46,8 @@
 <option th:each="profile:${profileList}" th:value="${profile.pfno}"
 				th:text="${profile.profileNm}" selected="selected"></option>
 ```
+- [배열의 깊은 복사와 얕은 복사](https://ecofreenavigator.tistory.com/22)
+- [zingChart 참고](https://infofactory0813.tistory.com/14)
+- [ZingChart 공식 Docs](https://www.zingchart.com/docs/chart-types/wordcloud)
+- [ZingChart 공식 Docs: token에 대하여](https://www.zingchart.com/docs/tutorials/elements/tokens)
+=> wordcloud에서 token을 적용해보려고 했지만 실제로 적용되는 토큰이 없어서 다른 방법으로 해결했지만, 평소 다른 데이터 차트는 토큰을 자주 사용한다.
