@@ -22,7 +22,10 @@
 ### ZingChart 활용
 - zingchart token 사용
 	- 
-- tooltip 넣기
+- dataTable에 tooltip 넣기
+
+- cloudwordChart 에 툴팁 넣기
+	- 공식 사이트에 안나와있음.. 주임님이 zingChart에 문의 메일 보내시고 받은 답변 [https://app.zingsoft.com/demos/create/HRBJV730]
 ### Ajax 사용하여 데이터 받기
 ### dimension과 metrics, size, sort 설정 (setSendData)
 ### localStorage 구현하기
@@ -40,9 +43,9 @@
 - 아직 이게 무엇인지 모르지만 공부해보쟈
 
 ```javascript
-<!-- Client seq로 해당 tag를 보여줄지 말지를 결정 -->
+//Client seq로 해당 tag를 보여줄지 말지를 결정
 <div class="col-md-2 tl w120px" th:if="${session[T(kr.co.bizspring.gp.report.common.ReportProperty).RK_SESSION_CLIENT_SEQ]} > 1">
-<!-- 해당 페이지 마다 정보를 가지고와서 알맞는 데이터를 변수에 넣어서 태그를 생성한다. -->
+//해당 페이지 마다 정보를 가지고와서 알맞는 데이터를 변수에 넣어서 태그를 생성한다.
 <option th:each="profile:${profileList}" th:value="${profile.pfno}"
 				th:text="${profile.profileNm}" selected="selected"></option>
 ```
