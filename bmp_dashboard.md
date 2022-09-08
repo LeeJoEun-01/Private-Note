@@ -49,6 +49,8 @@ sessionStorage.setItem('keywordSelect', JSON.stringify(subFilter));
 - 맨 처음에 고차함수 사용안해서 엄청난 양의 반복문과 조건문은 만들었다....ㅎ
 - 그러나 코드의 길이가 늘어나서 불편한것은 맞지만 함수를 사용하는 것보다 나중에 다른 개발자들이 보았을 때 직관적으로 이해할 수 있어 유지보수에 도움이 된다.
 - 실제로 map이나 reduce의 코드 길이가 짧다고 데이터를 처리하는 속도가 조건문 보다 항상 빠른 것은 아니다 어쩌면 조건문과 반복문을 사용하는 것이 더 빠를수도 있다.
+# 10.function(data, type, row, meta)
+- [공식문서](https://datatables.net/reference/option/columns.render)
 ## 참고
 - option에 넣어주는 `value 값`들은 생각보다 신중히 넣어야 한다.
 - 필요한 데이터가 value에 없다면 `data attribute`를 사용해서 내가 원하는 데이터를 넣어주자
