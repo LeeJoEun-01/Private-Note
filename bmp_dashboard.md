@@ -12,10 +12,11 @@
 [10. 참고](#참고)
 
 # 1. 개발 요구서
-- (디자인된 사이트 사진 첨부)
-## 통합 대시보드
+## 통합 대시보드 (전체 광고주)
+<img width="500" src="https://user-images.githubusercontent.com/78733700/191873084-2b6ba14f-dcac-4b6e-9d0b-68ba2d6cff8d.png" alt="TotalDashboard1"> <img width="500" src="https://user-images.githubusercontent.com/78733700/191873082-7c110cf1-9c5e-4a2c-ac06-c5bb45b40c41.png" alt="TotalDashboard2">
 
 ## 대시보드 (광고주별)
+<img width="330" src="https://user-images.githubusercontent.com/78733700/191873080-7360c6f7-389c-44d0-914f-f001b0352df3.png" alt="dashboard1"> <img width="330" src="https://user-images.githubusercontent.com/78733700/191873078-007ee98a-b5dc-4382-9a5f-971b097a27fe.png" alt="dashboard2"> <img width="330" src="https://user-images.githubusercontent.com/78733700/191873075-46e2ba8a-26cd-4142-aaea-a7b3d26967fa.png" alt="dashboard3">
 
 # 개발 정리 
 
@@ -42,7 +43,9 @@ sessionStorage.setItem('keywordSelect', JSON.stringify(subFilter));
 <img src="https://user-images.githubusercontent.com/78733700/188804269-2a7c5a81-0fc1-498e-9a26-f2c358332fe6.png"/>
 
 # 6. selectBox change 잡기
+
 # 7. Data Attribute
+
 # 8. swal alert 창 
 # 9. 고차함수(filter사용)
 - reduce, map 도 사용해보자
